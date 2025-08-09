@@ -11,11 +11,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://e-com-backend-jp79.onrender.com',
+        target: 'https://ecom-website-f0nv.onrender.com',
         changeOrigin: true,
         
       },
-      '/uploads/':'https://e-com-backend-jp79.onrender.com',
+      '/uploads/':'https://ecom-website-f0nv.onrender.com',
     }
   }
   
