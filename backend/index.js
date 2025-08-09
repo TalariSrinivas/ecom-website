@@ -21,10 +21,10 @@ const app = express();
 
 // ✅ Enable CORS for React Frontend
 app.use(cors(
-//  {
-  //origin: process.env.FRONTEND_URL,  // MUST be exact frontend deployed url with https://
-  //credentials: true,
-//}
+{
+  origin: process.env.FRONTEND_URL,  // MUST be exact frontend deployed url with https://
+  credentials: true,
+}
 ));
 
 
