@@ -20,10 +20,12 @@ connectDB();
 const app = express();
 
 // ✅ Enable CORS for React Frontend
-app.use(cors({
-  origin: process.env.FRONTEND_URL,  // MUST be exact frontend deployed url with https://
-  credentials: true,
-}));
+app.use(cors(
+//  {
+  //origin: process.env.FRONTEND_URL,  // MUST be exact frontend deployed url with https://
+  //credentials: true,
+//}
+));
 
 
 // ✅ Middlewares
